@@ -1,10 +1,11 @@
-:is(.theme-dark, .theme-midnight)  :is(
-    .scroller__1f96e,
-    .auto_a48086,
-    .thin_b1c063,
-    .peopleColumn__51df3,
-    .contentRegionScroller__86c79,
-    .scrollerBase_dc3aa9
-)::-webkit-scrollbar-thumb {
+:is(.theme-dark, .theme-midnight)
+    :is(
+        .scroller__1f96e,
+        .auto_a48086,
+        .thin_b1c063,
+        .peopleColumn__51df3,
+        .contentRegionScroller__86c79,
+        .scrollerBase_dc3aa9
+    )::-webkit-scrollbar-thumb {
     background-color: var(--background-secondary-alt);
 }
