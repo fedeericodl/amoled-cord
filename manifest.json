@@ -1,0 +1,27 @@
+{
+  "id": "dev.LuckFire.AMOLEDCord",
+  "name": "AMOLED-Cord",
+  "description": "A basically pitch black theme for Discord. Lights out, baby!",
+  "author": [
+    {
+      "name": "FedeIlLeone",
+      "discordID": "403195964241739776",
+      "github": "FedeIlLeone"
+    },
+    {
+      "name": "LuckFire",
+      "discordID": "399416615742996480",
+      "github": "LuckFire"
+    }
+  ],
+  "version": "4.0.13",
+  "updater": {
+    "type": "store",
+    "id": "dev.LuckFire.AMOLEDCord"
+  },
+  "license": "MIT",
+  "image": "https://cdn.discordapp.com/attachments/1142305515439923260/1142306014528544788/amoled-cord.png",
+  "source": "https://github.com/FedeIlLeone/amoled-cord",
+  "type": "replugged-theme",
+  "main": "src/source.scss"
+}
