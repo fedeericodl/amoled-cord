@@ -1,10 +1,9 @@
 :is(.theme-dark, .theme-midnight) .sidebar_ded4b5 {
     .panels__58331 {
         background-color: var(--background-primary);
-        .container_ca50b9,
-        .panel_bd8c76,
+        > div,
         .wrapper__0ed4a > div {
-            background-color: var(--background-primary);
+            background: var(--background-primary) !important;
         }
     }
 }
