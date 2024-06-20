@@ -17,7 +17,7 @@ See [LuckFire](https://github.com/LuckFire)'s original
 
 This theme is licensed under the MIT license. Please refer to the
 [LICENSE](https://github.com/LuckFire/amoled-cord/blob/main/LICENSE) file for more details regarding
-rigths and limitations.
+rights and limitations.
 
 ### Support
 

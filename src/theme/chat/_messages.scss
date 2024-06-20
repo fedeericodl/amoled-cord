@@ -1,18 +1,34 @@
 :is(.theme-dark, .theme-midnight) #app-mount {
     // Message Items
-    .messageListItem__050f9:hover {
+    .messageListItem_d5deea:hover {
         background-color: rgba(255, 255, 255, 0.015);
     }
     // Gifts
-    .tile_ebc93b {
+    .tile_ab47a1 {
         background-color: var(--background-secondary);
-        .invalidPoop__9bdd8 {
+        .invalidPoop_ff31dd {
             background-color: var(--background-secondary-alt);
         }
     }
     // Spotify Invites
-    .invite__2a93b {
+    .invite_cdcad9 {
         border-color: var(--background-secondary-alt);
         background-color: var(--background-secondary);
+    }
+    // Polls -- scuffed but it works
+    .container_a1531c {
+        background-color: var(--background-secondary);
+
+        .enabled_b97e9a[aria-checked="false"] .answerInner_cf2c85:hover {
+            outline-color: var(--background-secondary-alt);
+        }
+
+        .answerInner_cf2c85 {
+            background-color: var(--background-primary);
+        }
+
+        .normalStylesDefault_b5cb3c .votePercentageBar_cf2c85 {
+            background-color: var(--background-secondary-alt);
+        }
     }
 }

@@ -1,0 +1,8 @@
+:is(.theme-dark, .platform-overlay) {
+    .option_d2da9c:not(.selected_d2da9c, :hover) {
+        background-color: var(--primary-600);
+    }
+    .disabled_d2da9c:not(.selected_d2da9c, :hover) {
+        color: var(--primary-600);
+    }
+}
