@@ -1,27 +1,27 @@
 {
-    "id": "dev.LuckFire.AMOLEDCord",
-    "name": "AMOLED-Cord",
-    "description": "A basically pitch black theme for Discord. Lights out, baby!",
-    "author": [
-        {
-            "name": "FedeIlLeone",
-            "discordID": "403195964241739776",
-            "github": "FedeIlLeone"
-        },
-        {
-            "name": "LuckFire",
-            "discordID": "399416615742996480",
-            "github": "LuckFire"
-        }
-    ],
-    "version": "4.0.22",
-    "updater": {
-        "type": "store",
-        "id": "dev.LuckFire.AMOLEDCord"
+  "id": "dev.LuckFire.AMOLEDCord",
+  "name": "AMOLED-Cord",
+  "description": "A basically pitch black theme for Discord. Lights out, baby!",
+  "author": [
+    {
+      "name": "FedeIlLeone",
+      "discordID": "403195964241739776",
+      "github": "FedeIlLeone"
     },
-    "license": "MIT",
-    "image": "https://raw.githubusercontent.com/discord-extensions/assets/ad5f175075f83d01be9e6ea3a5cc6d8d169c0d70/banners/amoled-cord.png",
-    "source": "https://github.com/FedeIlLeone/amoled-cord",
-    "type": "replugged-theme",
-    "main": "src/source.scss"
+    {
+      "name": "LuckFire",
+      "discordID": "399416615742996480",
+      "github": "LuckFire"
+    }
+  ],
+  "version": "4.1.2",
+  "updater": {
+    "type": "store",
+    "id": "dev.LuckFire.AMOLEDCord"
+  },
+  "license": "MIT",
+  "image": "https://raw.githubusercontent.com/discord-extensions/assets/ad5f175075f83d01be9e6ea3a5cc6d8d169c0d70/banners/amoled-cord.png",
+  "source": "https://github.com/FedeIlLeone/amoled-cord",
+  "type": "replugged-theme",
+  "main": "src/source.scss"
 }
