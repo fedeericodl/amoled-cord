@@ -1,37 +1,37 @@
 name: Release
 
 on:
-  push:
-    tags:
-      - "v*"
+    push:
+        tags:
+            - "v*"
 
 jobs:
-  release:
-    name: Release
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    release:
+        name: Release
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
 
-    steps:
-      - name: Check out Git repository
-        uses: actions/checkout@v2
+        steps:
+            - name: Check out Git repository
+              uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
 
-      - uses: pnpm/action-setup@v2
-        with:
-          version: latest
+            - uses: pnpm/action-setup@v4
+              with:
+                  version: 9
 
-      - name: Install Node.js dependencies
-        run: pnpm install
+            - name: Install Node.js dependencies
+              run: pnpm install
 
-      - name: Build TypeScript and bundle into asar
-        run: pnpm run bundle
+            - name: Build TypeScript and bundle into asar
+              run: pnpm run bundle
 
-      - uses: ncipollo/release-action@v1
-        with:
-          artifacts: "bundle/*"
-          makeLatest: true
+            - uses: ncipollo/release-action@v1
+              with:
+                  artifacts: "bundle/*"
+                  makeLatest: true
