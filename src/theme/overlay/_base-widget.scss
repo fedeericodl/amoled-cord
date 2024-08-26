@@ -1,0 +1,27 @@
+:is(.theme-dark, .platform-overlay) {
+    .widget_cbf964 {
+        &.default_cbf964 {
+            background-color: var(--background-primary);
+        }
+        &.unpinned_cbf964 {
+            background-color: var(--background-tertiary);
+        }
+    }
+
+    .bar_cbf964 {
+        background-color: hsl(var(--primary-900-hsl) / 0.85);
+        &.default_cbf964,
+        &.unpinned_cbf964 {
+            background-color: var(--background-primary);
+        }
+    }
+    .body_cbf964 {
+        &.default_cbf964,
+        &.unpinned_cbf964 {
+            background-color: var(--background-primary);
+        }
+        &.pinned_cbf964 {
+            background-color: hsl(var(--primary-900-hsl) / 0.75);
+        }
+    }
+}
