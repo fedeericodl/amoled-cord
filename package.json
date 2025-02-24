@@ -3,8 +3,8 @@
   "version": "4.1.11",
   "description": "A basically pitch black theme for Discord. Lights out, baby!",
   "engines": {
-    "node": ">=22.0.0",
-    "pnpm": ">=9.0.0"
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
   },
   "scripts": {
     "build": "replugged build theme",
@@ -16,9 +16,9 @@
   },
   "contributors": [
     "LuckFire",
-    "FedeIlLeone"
+    "fedeericodl"
   ],
-  "author": "FedeIlLeone",
+  "author": "fedeericodl",
   "license": "MIT",
   "devDependencies": {
     "prettier": "^3.5.2",

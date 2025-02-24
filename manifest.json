@@ -4,9 +4,9 @@
   "description": "A basically pitch black theme for Discord. Lights out, baby!",
   "author": [
     {
-      "name": "FedeIlLeone",
+      "name": "fedeericodl",
       "discordID": "403195964241739776",
-      "github": "FedeIlLeone"
+      "github": "fedeericodl"
     },
     {
       "name": "LuckFire",
@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "image": "https://raw.githubusercontent.com/discord-extensions/assets/ad5f175075f83d01be9e6ea3a5cc6d8d169c0d70/banners/amoled-cord.png",
-  "source": "https://github.com/FedeIlLeone/amoled-cord",
+  "source": "https://github.com/fedeericodl/amoled-cord",
   "type": "replugged-theme",
   "main": "src/source.scss"
 }
