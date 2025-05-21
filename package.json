@@ -21,7 +21,7 @@
   "author": "fedeericodl",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^3.5.2",
-    "replugged": "^4.8.4"
+    "prettier": "^3.5.3",
+    "replugged": "^4.9.1"
   }
 }
