@@ -20,7 +20,7 @@
     "id": "dev.LuckFire.AMOLEDCord"
   },
   "license": "MIT",
-  "image": "https://raw.githubusercontent.com/discord-extensions/assets/ad5f175075f83d01be9e6ea3a5cc6d8d169c0d70/banners/amoled-cord.png",
+  "image": "https://raw.githubusercontent.com/discord-extensions/assets/fe122138e4f7622d9446e90b5cc4376604261244/banners/amoled-cord.png",
   "source": "https://github.com/fedeericodl/amoled-cord",
   "type": "replugged-theme",
   "main": "src/source.scss"
