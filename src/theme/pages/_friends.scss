@@ -6,30 +6,12 @@
         background-color: var(--background-base-lowest);
     }
 
-    .body__00943 {
-        .section__00943 {
-            background-color: var(--background-base-lowest);
-            border: 1px solid var(--border-subtle);
-
-            &:has(+ .separator__00943) {
-                border-bottom: none;
-            }
-        }
-
-        .wrapper__960df {
-            background-color: var(--background-base-lowest);
-            border: 1px solid var(--border-subtle);
-        }
-        .separator__00943 {
-            + .section__00943,
-            + .wrapper__960df {
-                border-top: none;
-            }
-        }
+    .body__00943 .section__00943 {
+        background-color: var(--background-base-lowest);
+        border: 1px solid var(--border-subtle);
     }
 
     .addFriendInputWrapper__72ba7 {
-        // thank you fede
         &:not(:focus-within) {
             border-color: var(--input-border);
         }

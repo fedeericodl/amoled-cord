@@ -12,7 +12,7 @@
     }
 
     .emptyState__7641b {
-        border-left: 1px solid var(--app-border-frame);
+        border-left: 1px solid var(--app-frame-border);
     }
 
     .wrapper_f7ecac {
@@ -52,7 +52,7 @@
 
     // Commands
     .optionPill__1464f {
-        border: 1px solid var(--border-faint);
+        border: 1px solid var(--border-muted);
         background-color: var(--background-surface-high);
         .optionPillKey__1464f {
             background-color: var(--background-base-lower);
@@ -86,6 +86,6 @@
     // Channel Followers Publish CTA
     .bumpBox_cacd02 {
         background-color: var(--background-base-low);
-        border: 1px solid var(--border-faint);
+        border: 1px solid var(--border-muted);
     }
 }

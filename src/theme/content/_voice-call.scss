@@ -4,8 +4,7 @@
     .streamPreview__2f4f7 {
         background-color: var(--background-base-low);
     }
-    .participantsButton__211d1,
-    .buttonColor__7b3e8 {
+    .participantsButton__211d1 {
         background-color: var(--background-surface-higher);
         &:hover {
             background-color: var(--background-surface-high);
@@ -19,7 +18,7 @@
 
     // Stages
     .container__664ff {
-        border-left: 1px solid var(--app-border-frame);
+        border-left: 1px solid var(--app-frame-border);
         background-color: var(--background-base-lowest);
     }
     .background__506d9 {
@@ -28,7 +27,7 @@
 
     // We need to use raw tokens here because they override the default theme to dark
     // --neutral-95 is --background-base-low
-    // --opacity-12 is --background-modifier-hover
+    // --opacity-12 is --interactive-background-hover
     // --opacity-24 is --border-subtle
     .container__6b38f.pulse__6b38f {
         background-color: var(--neutral-95);

@@ -1,21 +1,11 @@
 .theme-midnight {
-    .container__55c99 {
-        background-color: var(--background-base-low);
-    }
-    .queryContainer__55c99 {
-        border-bottom-color: var(--border-subtle);
-    }
-    .focused__55c99 {
-        background-color: var(--background-base-lower);
-    }
-
     .calendarPicker_d27f17 {
         .react-datepicker,
         .react-datepicker__header {
             background-color: var(--background-base-low);
         }
         .react-datepicker__current-month {
-            border-bottom-color: var(--border-faint);
+            border-bottom-color: var(--border-muted);
         }
         .react-datepicker__day {
             &.react-datepicker__day--disabled,
