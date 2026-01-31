@@ -1,27 +1,27 @@
 {
   "name": "amoled-cord",
-  "version": "5.0.7",
+  "version": "5.0.10",
   "description": "A basically pitch black theme for Discord. Lights out, baby!",
   "license": "MIT",
   "author": "fedeericodl",
   "contributors": [
-      "LuckFire",
-      "fedeericodl"
+    "LuckFire",
+    "fedeericodl"
   ],
   "scripts": {
-      "build": "replugged build theme",
-      "watch": "replugged build theme --watch",
-      "bundle": "replugged bundle theme",
-      "release": "replugged release",
-      "lint": "prettier ./src --check",
-      "lint:fix": "prettier ./src --write"
+    "build": "replugged build theme",
+    "watch": "replugged build theme --watch",
+    "bundle": "replugged bundle theme",
+    "release": "replugged release",
+    "lint": "prettier ./src --check",
+    "lint:fix": "prettier ./src --write"
   },
   "devDependencies": {
-      "prettier": "^3.8.1",
-      "replugged": "^4.11.1"
+    "prettier": "^3.8.1",
+    "replugged": "^4.11.1"
   },
   "engines": {
-      "node": ">=20.0.0",
-      "pnpm": ">=10.0.0"
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
   }
 }
